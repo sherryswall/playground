@@ -2,7 +2,7 @@
   "scripts": {
     "lint": "eslint precommit-hooks-app/src/**",
     "testme": "echo \"this is sherry testing\"",
-    "psscript": "powershell \"write-host testing1122\""
+    "psscript": "powershell ./.git/hooks/psscript.ps1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
