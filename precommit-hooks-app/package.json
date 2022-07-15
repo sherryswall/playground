@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./ --cache --ignore-pattern .gitignore"
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore",
+    "testme": "echo \"this is sherry testing\""
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
-    "lint"
+    "lint",
+    "testme"
   ]
 }
