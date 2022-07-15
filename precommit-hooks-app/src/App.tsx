@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <p>Adding another line of code.....</p>
+          <p>Adding another line of code.changes for commit</p>
         </p>
         <a
           className="App-link"
