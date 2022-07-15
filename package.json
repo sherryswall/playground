@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore",
+    "testme": "echo \"this is sherry testing\""
+  },
   "devDependencies": {
     "pre-commit": "^1.2.2"
-  }
+  },
+  "pre-commit": [   
+    "testme"
+  ]
 }
